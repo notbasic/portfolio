@@ -1,0 +1,117 @@
+ul.nav-list{
+    list-style-type: none;
+}
+
+ul.nav-list li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 42;
+}
+
+a:hover{
+    color: orangered;
+}
+
+body{
+    background-image: url(the_blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: whitesmoke;
+    font-style: oblique;
+    font-weight: bold;    
+    font-size: 20px;
+    
+}
+
+.nav{
+    text-align: center;
+}
+
+.container{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.name{
+    font-size: 60px;
+    text-align: center;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+.projectimg{
+    height: 400px;
+    width: auto;
+    
+}
+
+
+
+ul.projectlisting li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-top: 20px;
+    
+}
+
+div.showme{
+    visibility: hidden;
+    width: 480px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.projectimg{
+    border-style: groove;
+    border-width: thick;
+    border-color: red;
+    
+}
+
+.projectimg:hover + .showme{
+    visibility: visible;
+
+}
+
+.about{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-shadow: 2px 2px red;
+}
+
+.projectimg:hover + .footer{
+    position: relative;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 20%;
+    margin-bottom: -18px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.sitelink{
+    background-color: green;
+}
