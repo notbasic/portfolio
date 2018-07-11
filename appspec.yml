@@ -5,6 +5,12 @@ files:
     destination: /var/www/html/
   - source: /styles.css
     destination: /var/www/html/
+    - source: /logo.png
+    destination: /var/www/html/
+    - source: /logs.jpg
+    destination: /var/www/html/
+    - source: /the_blue.jpg
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
