@@ -3,13 +3,13 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
-  - source: /styles.css
+  - source: /the_blue.jpg
     destination: /var/www/html/
   - source: /logo.png
     destination: /var/www/html/
   - source: /logs.jpg
     destination: /var/www/html/
-  - source: /the_blue.jpg
+  - source: /styles.css
     destination: /var/www/html/
 hooks:
   BeforeInstall:
